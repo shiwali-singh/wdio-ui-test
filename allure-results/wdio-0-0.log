@@ -1,0 +1,6 @@
+2023-03-07T10:10:41.720Z ERROR @wdio/local-runner: Failed launching test session: Error: Couldn't find plugin "allure" reporter, neither as wdio scoped package "@wdio/allure-reporter" nor as community package "wdio-allure-reporter". Please make sure you have it installed!
+    at initialisePlugin (file:///C:/Users/Sarvesh%20Singh/Desktop/Work/Project/wdio_ui_test_practice/node_modules/@wdio/utils/build/initialisePlugin.js:36:11)
+    at async BaseReporter._loadReporter (file:///C:/Users/Sarvesh%20Singh/Desktop/Work/Project/wdio_ui_test_practice/node_modules/@wdio/runner/build/reporter.js:178:30)
+    at async Promise.all (index 0)
+    at async BaseReporter.initReporters (file:///C:/Users/Sarvesh%20Singh/Desktop/Work/Project/wdio_ui_test_practice/node_modules/@wdio/runner/build/reporter.js:23:27)
+    at async Runner.run (file:///C:/Users/Sarvesh%20Singh/Desktop/Work/Project/wdio_ui_test_practice/node_modules/@wdio/runner/build/index.js:68:9)

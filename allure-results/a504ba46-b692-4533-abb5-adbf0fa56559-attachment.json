@@ -1,0 +1,6 @@
+<script>
+var canvas_el = document.getElementById('canvas');
+var canvas = canvas_el.getContext('2d');
+canvas.font = '60px Arial';
+canvas.strokeText('Answer: 20170',90,112);
+</script>
